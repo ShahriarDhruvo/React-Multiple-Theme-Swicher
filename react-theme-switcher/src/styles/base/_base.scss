@@ -1,0 +1,28 @@
+// All custom css classess and ids
+.vertical-center {
+    min-height: 94%;
+    min-height: 94vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.content-box {
+    background-color: #eee;
+    color: #222;
+
+    border-radius: 1rem;
+    border: 3px solid #000;
+
+    h3 {
+        line-height: 1.2;
+        margin: 0;
+        font-size: 26px;
+    }
+
+    h5 {
+        line-height: 1.5;
+        margin: 0 0 22px 0;
+        font-size: 20px;
+    }
+}

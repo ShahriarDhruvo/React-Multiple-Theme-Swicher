@@ -1,0 +1,17 @@
+.App.theme-orange {
+    background-color: #f4c9b7;
+
+    .content-box {
+        background-color: #f4dfd6;
+        border: 3px solid #b64b1e;
+
+        h3,
+        h5 {
+            color: #b64b1e;
+        }
+
+        p {
+            color: #000;
+        }
+    }
+}

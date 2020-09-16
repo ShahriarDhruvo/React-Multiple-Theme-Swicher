@@ -1,0 +1,17 @@
+.App.theme-purple {
+    background-color: #d0b7f4;
+
+    .content-box {
+        background-color: #ecdfff;
+        border: 3px solid #7852ae;
+
+        h3,
+        h5 {
+            color: #7852ae;
+        }
+
+        p {
+            color: #000;
+        }
+    }
+}

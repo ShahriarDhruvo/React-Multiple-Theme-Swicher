@@ -1,0 +1,64 @@
+// Theme option buttons styles
+$amount: 15%;
+
+.theme-options {
+    text-align: right;
+    max-width: 16rem;
+    padding: 0.5rem 0 0.5rem;
+
+    div {
+        cursor: pointer;
+        width: 2rem;
+        height: 2rem;
+        vertical-align: middle;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        display: inline-block;
+        opacity: 0.6;
+
+        &.active {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+    }
+
+    div:hover {
+        transform: scale(1.1);
+    }
+
+    #theme-white {
+        $color: #eee;
+        background-color: $color;
+        border: 3px solid darken($color: $color, $amount: $amount);
+    }
+
+    #theme-blue {
+        $color: #1e41c1;
+        background-color: $color;
+        border: 3px solid lighten($color: $color, $amount: $amount);
+    }
+
+    #theme-orange {
+        $color: #b64b1e;
+        background-color: $color;
+        border: 3px solid lighten($color: $color, $amount: $amount);
+    }
+
+    #theme-purple {
+        $color: #7852ae;
+        background-color: $color;
+        border: 3px solid lighten($color: $color, $amount: $amount);
+    }
+
+    #theme-green {
+        $color: #5faf3b;
+        background-color: $color;
+        border: 3px solid lighten($color: $color, $amount: $amount);
+    }
+
+    #theme-black {
+        $color: #000;
+        background-color: $color;
+        border: 3px solid lighten($color: $color, $amount: $amount);
+    }
+}

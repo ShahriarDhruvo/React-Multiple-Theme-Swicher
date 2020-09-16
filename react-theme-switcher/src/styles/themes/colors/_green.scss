@@ -1,0 +1,17 @@
+.App.theme-green {
+    background-color: #c3e3c1;
+
+    .content-box {
+        background-color: #e2f6e1;
+        border: 3px solid #5faf3b;
+
+        h3,
+        h5 {
+            color: #5faf3b;
+        }
+
+        p {
+            color: #000;
+        }
+    }
+}

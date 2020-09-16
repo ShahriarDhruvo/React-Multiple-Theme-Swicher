@@ -1,0 +1,9 @@
+// All custom css
+@import "./base/settings";
+@import "./base/base";
+
+// All theme files
+@import "./themes/themes";
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";

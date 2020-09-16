@@ -1,0 +1,16 @@
+.App.theme-blue {
+    background-color: #bec7e7;
+
+    .content-box {
+        background-color: #d8def4;
+        border: 3px solid #1e41c1;
+        
+        h3, h5 {
+            color: #1e41c1;
+        }
+
+        p {
+            color: #000;
+        }
+    }
+}
